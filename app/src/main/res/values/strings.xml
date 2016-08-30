@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Foodonet</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="title_activity_sql_loader_result">SqlLoaderResultActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_new_fcpublication">AddNewFCPublicationActivity</string>
+    <string name="no_date_set_string">0000–00–00</string>
+    <string name="no_time_set_string">00:00:00</string>
+    <!--
+    <string name="another_details_string">פרטים נוספים</string>
+    <string name="side_menu_feedback_title">כתוב לנו</string>
+    <string name="feedback_validation_text_null">תכתוב לנו משהו</string>
+    <string name="feedback_progress_sending">שולח דיווח...</string>
+    <string name="feedback_uimessage_thanks">תודה על תגובה!</string>
+    -->
+    <string name="test_btn_text">TEST</string>
+    <!--
+    <string name="leave_report_pub_details">דווח</string>
+    <string name="start_date_time_picker_dialog_title">מתאריך‫:‬</string>
+    <string name="end_date_time_picker_dialog_title">ועד תאריך‫:‬</string>
+    <string name="my_pubs_list_end_date_base_string">פעיל</string>
+    -->
+
+
+    <!-- Common - check if needed -->
+
+
+    <!-- my publication details -->
+    <string name="pub_det_on_the_way_to_take">On the way</string>
+    <string name="pub_det_metr_from_you">meters from you</string>
+    <string name="pub_det_calculating_distance">Calculating distance</string>
+    <string name="pub_det_cant_get_distance">Distance unknown</string>
+    <string name="pub_det_reports_for_pub">User reports</string>
+    <string name="title_activity_my_publication_details">MyPublicationDetailsActivity</string>
+    <string name="participants_report">Report on participants</string>
+    <string name="going_to_collect">persons are going to collect</string>
+    <string name="cancel_publication">cancel publication</string>
+    <string name="cancel_publication_question">Really cancel this publication?</string>
+    <string name="pub_det_uimessage_successfully_registered_to_pub">Successfully registered to publication</string>
+    <!--
+    <string name="pub_det_uimessage_failed_register_to_pub">Register to publication failed</string>
+    <string name="pub_det_uimessage_failed_unregister_from_pub">ביטול הרשמה נכשל</string>
+    <string name="pub_det_must_register_before_waze">חובה להרשם לשיתוף לפני ניווט אליו</string>
+    -->
+
+
+    <!-- Report dialog -->
+    <!--
+    <string name="report_dialog_whole_btn_text">נשאר עוד</string>
+    <string name="report_dialog_half_btn_text">לקחתי הכול</string>
+    <string name="report_dialog_few_btn_text">לא מצאתי כלום</string>
+    -->
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add_edit_publication">AddEditPublicationActivity</string>
+    -->
+
+    <string name="hashtag">#FooDoNet</string>
+
+    <!-- File system keys -->
+
+
+    <!-- Add/Edit publication -->
+
+    <string name="ttl_item_your_new_share">New sharing</string>
+    <string name="share_with">Share with</string>
+    <string name="file_name_part_just_shot">justShot</string>
+    <string name="validation_cant_get_my_location">Cann\'t find my location</string>
+
+
+    <string name="validation_title_empty">Title cannot be empty</string>
+    <string name="validation_title_too_long">Title is too long, maximum: {0} characters</string>
+    <string name="validation_address_empty">Address required</string>
+    <string name="validation_must_choose_group">Please choose group to share with</string>
+    <string name="btn_ok_add_pub">בחר</string>
+    <string name="btn_cancel_add_pub">בטל</string>
+
+    <!-- Address dialog -->
+
+
+    <!-- <string name="get_current_location_checkbox_text">מיקום נוכחי</string> -->
+    <string name="address_dialog_btn_ok">Ok</string>
+    <string name="address_dialog_btn_cancel">Cancel</string>
+    <string name="validation_location_empty">לצורך יצירת שיתוף יש לציין את מיקומו‫.‬ ניתן ללהקליד כתובת‫,‬ לבחור מההיסטוריה או להשתמש במיקום הנוכחי‫.‬</string>
+    <string name="progress_waiting_for_location">Current location</string>
+    <!-- <string name="validation_cant_get_my_location">אופס‫..‬ המיקום לא התקבל‫.‬ נסה שוב</string> -->
+    <!-- <string name="address_search">חיפוש כתובת</string> -->
+
+
+    <!-- Collector dialog details -->
+
+
+    <!--
+    <string name="collector_dialog_sign_title">רישום לאיסוף</string>
+    <string name="collector_dialog_register_text">יש למלא פרטי התקשרות כדי להצטרף לאיסוף</string>
+    <string name="collector_dialog_name_et">שם</string>
+    <string name="collector_dialog_phone_et">טלפון</string>
+    <string name="collector_dialog_sign_btn">הרשם</string>
+    <string name="collector_dialog_cancel_btn">בטל</string>
+    -->
+
+
+    <!-- Collector details -->
+    <!--
+    <string name="collector_details_name_too_short">השם אמור להכיל לפחות שני אותיות</string>
+    <string name="collector_details_phone_too_short">מספר הטל׳ אמור להכיל לפחות שני מספרים</string>
+    <string name="collector_details_phone_incorrect">מספר הטלפון לא תקין</string>
+    -->
+
+
+    <!-- Report dialog details -->
+
+
+    <!--
+    <string name="report_dialog_report_title">דווח על איסוף</string>
+    <string name="report_dialog_collected_part_btn">אספתי חלק</string>
+    <string name="report_dialog_collected_all_btn">אספתי הכל</string>
+    <string name="report_dialog_found_nothing_btn">לא נמצא כלום</string>
+    <string name="report_dialog_report_btn">דווח</string>
+    <string name="report_dialog_cancel_btn">בטל</string>
+    <string name="report_big_distance">מרחק ממיקום השיתוף גדול מ-2 ק״מ. האם לדווח?</string>
+    <string name="report_big_distance_ok_btn">אישור</string>
+    <string name="report_big_distance_cancel_btn">ביטול</string>
+    -->
+
+
+    <!-- Dialog publication reports -->
+
+
+    <!--
+    <string name="dialog_pub_reports_title">דיווחי משתמשים</string>
+    <string name="dialog_pub_reports_back_btn">חזרה</string>
+    -->
+
+
+    <!-- Publication details -->
+    <string name="error_cant_perform_this_action_without_internet">לא ניתן לבצע {0} ללא חיבור לאינטרנט</string>
+    <!--
+    <string name="progress_taking_pub_off_air">מעדכן שיתוף</string>
+    <string name="progress_registration_to_pub">הרשמה</string>
+    <string name="progress_unregistering_from_pub">ביטול הרשמה</string>
+    <string name="progress_leaving_report">שומר תגובה</string>
+    <string name="progress_delete_pub">מוחק שיתוף</string>
+
+    <string name="action_leave_report">השארת תגובה</string>
+    <string name="action_register_to_pub">הרשמה לשיתוף</string>
+    <string name="action_unregister_from_pub">ביטול הרשמה לשיתוף</string>
+    <string name="action_tweet">שיתוף בטוויטר</string>
+    <string name="action_facebook">שיתוף בפייסבוק</string>
+    <string name="action_add_new_publication">יצירת שיתוף חדש</string>
+    <string name="action_edit_publication">עריכת שיתוף</string>
+    <string name="action_take_off_air">הפוך ללא פעיל</string>
+    <string name="action_delete">מחיקה של שיתוף</string>
+    <string name="action_failed">פעולה נכשלה: {0}</string>
+    <string name="action_succeeded">{0} בוצע בהצלחה!</string>
+    <string name="validation_register_name_empty">שדה שם לא יכול להיות ריק</string>
+    <string name="validation_register_phone_invalid">מספר טלפון לא תקין</string>
+    -->
+
+
+    <!-- All publications list -->
+
+
+    <!-- My publications list -->
+
+
+    <!--
+    <string name="progress_saving">שמירה</string>
+    <string name="new_pub_waiting_for_save_on_server">שיתוף תרם נשמר בשרת, נה להמתין</string>
+    <string name="progress_saving_on_server">בתהליך שמירה בשרת</string>
+    <string name="failed_to_save_new_pub">שמירה נכשלה, תנסה מאוחר יותר</string>
+    -->
+
+
+    <!-- Entrance activity -->
+
+    <string name="progress_loading">Loading...</string>
+    <!--
+    <string name="progress_loading">טוען..</string>
+    <string name="no_internet_connection_available_error_message">לא נמצא חיבור לאינטרנט‫.‬ חלק מתכונות האפליקציה לא יהיו זמינות</string>
+    -->
+
+
+    <!-- SplashScreen -->
+
+
+    <!--     <string name="progress_foodonet_loading">טוען..</string> -->
+    <string name="progress_load">Loading...</string>
+    <string name="progress_first_load">First load...</string>
+
+    <!-- Common hebrew -->
+
+
+    <!--
+    <string name="confirmAction">בטוח?</string>
+    <string name="confirmExit">ברצונך לצאת מאפליקציה?</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    -->
+
+
+    <!--  -->
+
+
+    <!-- Notification messages -->
+
+
+    <!--
+    <string name="notif_new_pub">שיתוף חדש בקרבתך</string>
+    <string name="notif_was_deleted">שיתוף נמחק</string>
+    <string name="notif_report">התקבל דיווח חדש על השיתוף</string>
+    <string name="notif_new_registered_user">משתמש חדש נרשם לשיתוף</string>
+    -->
+
+
+    <!--  -->
+
+
+    <!-- Feedback Dialog -->
+
+
+    <!--
+    <string name="feedback_dialog_title">שתפו אותנו במחשבות, הצעות או כל מה שתירצו</string>
+    <string name="feedback_name_hint">שם שלך</string>
+    <string name="feedback_report_hint">טקסט תגובה</string>
+    <string name="feedback_btn_ok">שלח</string>
+    <string name="feedback_btn_cancel">ביטול</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    -->
+
+
+    <!-- Sign in activity -->
+
+
+    <!--
+    <string name="sign_in_title">Sharing food changing society</string>
+    <string name="sign_in_subtitle">Ready to get started?</string>
+    <string name="sign_in_footer">Continue without Registration</string>
+    <string name="sign_in_with_title">Sign in with</string>
+    -->
+
+
+    <!-- Map -->
+
+
+    <!-- Register Phone Activity -->
+
+
+    <!--
+    <string name="title_activity_register_phone">RegisterPhoneActivity</string>
+    <string name="welcome_reg_number_string">ברוכים הבאים ל FOODONET</string>
+    <string name="btn_start_sharing_string">התחל לשתף</string>
+    <string name="last_step_string">LAST STEP TO START</string>
+    <string name="facebook_url">https://graph.facebook.com/</string>
+    <string name="title_activity_test">TestActivity</string>
+    -->
+
+    <string name="pub_det_km_from_you"> km away</string>
+    <string name="filter_less_regs_btn_text">Active</string>
+    <string name="side_menu_activity_center_title">Activity Center</string>
+    <string name="add_pic_string">Add a picture</string>
+    <string name="et_subtitle_add_edit_pub">Additional details</string>
+    <!-- <string name="enter_title_string">Address Selector</string> -->
+    <string name="notif_new_registered_user">Another user is en route to pickup:</string>
+    <string name="btn_take_photo">Camera</string>
+    <string name="btn_cancel">Cancel</string>
+    <!-- <string name="pickup_btn">Collect</string> -->
+    <string name="no_internet_connection_available_error_message">Communication Issue</string>
+    <string name="get_current_location_checkbox_text">Current location</string>
+    <string name="pub_det_menu_item_delete">Delete</string>
+    <string name="pub_det_menu_item_edit">Edit</string>
+    <string name="side_menu_going_to_take_part">en route</string>
+    <string name="filter_ending_btn_text">Ends</string>
+    <string name="title_end_pub_details">Ends:</string>
+    <string name="publication_details_title">Add more details</string>
+    <string name="address_string">Event location</string>
+    <string name="title_all_publications">Events Near You</string>
+    <string name="pub_det_sms_default_text">I want to pickup </string>
+    <string name="collector_details_phone_incorrect">It seems the phone number is incorrect. Please check you have typed it correctly.</string>
+    <string name="btn_chose_from_library">Library</string>
+    <!-- <string name="side_menu_going_to_take_part">My Pickups</string> -->
+    <string name="side_menu_my_active_pubs_part">My Shares</string>
+    <string name="collector_dialog_name_et">Name</string>
+    <string name="pub_det_no_reports_for_pub">No reports</string>
+    <string name="report_dialog_found_nothing_btn">Nothing Left</string>
+    <string name="filter_not_active_btn_text">Off Air</string>
+    <string name="filter_active_btn_text">On Air</string>
+    <string name="collector_dialog_phone_et">Phone number</string>
+    <string name="pickup_btn">Pickup</string>
+    <string name="end_string">Pickup ends:</string>
+    <string name="pickup">Pickup Food</string>
+    <string name="start_string">Pickup starts:</string>
+    <string name="filter_newest_btn_text">Recent</string>
+    <string name="collector_dialog_sign_btn">Register</string>
+    <string name="collector_dialog_sign_title">Register for Pickup</string>
+    <string name="action_take_off_air">Remove Event</string>
+    <string name="report_dialog_report_btn">Report</string>
+    <string name="dialog_pub_reports_title">Reports</string>
+    <string name="pub_list_search_hint">Search</string>
+    <string name="feedback_btn_ok">Send</string>
+    <string name="share_btn">Share</string>
+    <string name="publish">Share Food</string>
+    <string name="feedback_dialog_title">Share your thoughts or anything else</string>
+    <string name="title_begin_pub_details">Started:</string>
+    <string name="pub_det_menu_item_deactivate">Stop Event</string>
+    <!-- <string name="collector_details_phone_incorrect">There are no legit phone numbers</string> -->
+    <string name="report_dialog_collected_part_btn">There’s More to Pickup</string>
+    <string name="report_dialog_whole_btn_text">There’s more to pickup</string>
+    <string name="report_dialog_collected_all_btn">Took All</string>
+    <string name="report_dialog_half_btn_text">Took all</string>
+    <string name="welcome_string">Welcome</string>
+    <string name="enter_title_string">What are you sharing?</string>
+    <string name="add_phone_number_string">What\'s your phone number?</string>
+    <string name="welcome_reg_number_string">WELCOME TO FOODONET</string>
+    <string name="btn_start_sharing_string">Start Sharing</string>
+    <string name="last_step_string">LAST STEP TO START</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- Sign in activity -->
+
+    <string name="sign_in_title">Sharing food changing society</string>
+    <string name="sign_in_subtitle">Ready to get started?</string>
+    <string name="sign_in_footer">Continue without Registration</string>
+    <string name="sign_in_with_title">Sign in with</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_register_phone">RegisterPhoneActivity</string>
+    <string name="dialog_title_please_register">Please register</string>
+    <string name="dialog_message_please_register">Only registered users can use this feature</string>
+    <string name="dialog_button_register_now">Register now</string>
+    <string name="dialog_button_no_thanks">No, thanks</string>
+
+    <!-- Register phone number -->
+
+    <string name="validation_phone_number_empty">Phone number cannot be empty</string>
+    <string name="validation_phone_number_invalid">You entered invalid number</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="failed_to_login_try_later">Failed to login, please try later</string>
+
+    <!-- Group add/edit -->
+
+    <string name="group_title">Group</string>
+    <string name="group_name_hint">Group name</string>
+    <string name="group_add_members">Add members</string>
+    <string name="contacts_title">Contacts</string>
+    <string name="loading_contacts">Loading contacts</string>
+    <string name="saving_group">Saving group</string>
+    <string name="loading_group">Loading group</string>
+
+    <string name="new_group_dialog_title">Enter new group name:</string>
+    <string name="new_group_dialog_create_button">Create</string>
+
+    <string name="group_admin_subtitle">Admin</string>
+
+    <string name="button_text_leave">Leave</string>
+    <string name="button_text_group">group</string>
+
+    <string name="progress_delete_member">Removing group member</string>
+    <string name="progress_leave_group">Leaving group</string>
+
+    <!-- Common -->
+
+    <string name="confirmAction">Sure?</string>
+    <string name="confirmExit">You\'re sure you want to quit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="title_activity_groups_list">GroupsListActivity</string>
+    <string name="title_activity_new_and_existing_group">NewAndExistingGroupActivity</string>
+    <string name="title_activity_select_contacts_for_group">SelectContactsForGroupActivity</string>
+    <string name="title_activity_add_edit_publication">AddEditPublicationActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="user_avatar_file_name">avatar.jpeg</string>
+    <string name="publication_picture_file_name_format">{0}.{1}.jpg</string>
+    <string name="new_israeli_shekel_sign">₪</string>
+
+    <string name="title_activity_select_group_for_publication">aaa</string>
+
+    <string name="progress_saving_publication">Saving publication</string>
+
+    <!-- Publications list -->
+
+    <string name="address_format_for_list">{0} ({1})</string>
+    <string name="users_joined_format_for_list">{0} users joined</string>
+
+    <!-- Map and list -->
+
+    <string name="filter_closest_btn_text">Closest</string>
+    <string name="filter_new_btn_text">Recent</string>
+    <string name="filter_all_btn_text">Active</string>
+    <string name="title_activity_my_publications">MyPublicationsActivity</string>
+    <string name="all_shares_toolbar_title">All shares</string>
+    <string name="toolbar_title_map">Sharings on map</string>
+    <string name="filter_all_my_pubs">Ends</string>
+    <string name="filter_active_my_pubs">On Air</string>
+    <string name="filter_ended_my_pubs">Off Air</string>
+    <string name="new_pub_waiting_for_save_on_server">Saving publications to server, please wait</string>
+    <string name="my_shares_toolbar_title">My shares</string>
+    <string name="progress_loading_publication">Loading publication</string>
+
+    <!-- Navigation side menu -->
+
+    <string name="ttl_item_your_sh_menu">Your sharings</string>
+    <string name="ttl_item_sub_menu">Subscription</string>
+    <string name="ttl_item_groups_menu">Groups</string>
+    <string name="ttl_item_notifications">Notifications</string>
+    <string name="ttl_item_settings_menu">Settings</string>
+    <string name="ttl_item_contact_menu">Contact us</string>
+    <string name="ttl_item_terms_menu">About</string><!--<![CDATA[Terms & conditions]]>-->
+
+    <!-- Add/edit publication -->
+
+    <string name="public_share_group_name">Public</string>
+    <string name="loading_groups">Loading groups</string>
+    <string name="title_activity_settings_select">SettingsSelectActivity</string>
+    <string name="share_with_format">Share with: {0}</string>
+    <string name="hint_price_free">Price: Free</string>
+    <string name="hint_price">Price:</string>
+
+    <!-- Settings -->
+
+    <string name="profile_settings_button_text">Profile settings</string>
+    <string name="notification_settings_button_text">Notifications</string>
+    <string name="logout_button_text">Log out</string>
+    <string name="title_activity_profile_view_and_edit">profile_view_and_edit</string>
+    <string name="settings_ask_if_sure_to_logout">Are you\'re sure you want to logout?</string>
+    <string name="progress_logout">Logging out</string>
+
+    <!-- Profile -->
+
+    <string name="profile_header_label">Profile</string>
+    <string name="profile_settings_header_label">Profile settings</string>
+    <string name="edit_button_text">Edit</string>
+    <string name="update_button_text">Save changes</string>
+    <string name="profile_edit_user_name_hint">Edit name</string>
+    <string name="profile_edit_phone_hint">Edit phone number</string>
+    <string name="progress_saving_profile">Saving profile</string>
+    <string name="title_activity_notification_settings">NotificationSettings</string>
+
+    <!-- Notifications settings -->
+
+    <string name="notifications_settings_set_distance">Set the distance</string>
+    <string name="notifications_settings_radius">Notifications Radius:</string>
+    <string name="title_activity_existing_publication">Share details</string>
+
+    <!-- Existing publication -->
+
+    <string name="share_details_activity_title">Share details</string>
+    <string name="menu_item_edit">Edit</string>
+    <string name="menu_item_stop_event">Stop Event</string>
+    <string name="menu_item_restart_event">Restart Event</string>
+    <string name="menu_item_delete">Delete</string>
+    <string name="menu_item_report">Report</string>
+    <string name="time_left_format_less_one_day">{0}h {1}m</string>
+    <string name="time_left_format_more_than_day">{0}d {1}h</string>
+    <string name="time_left_ended">Ended</string>
+    <string name="user_rating_format">{0}.{1}</string>
+    <string name="publication_details_price">Price:</string>
+    <string name="publication_details_price_free">Free</string>
+    <string name="publication_details_price_format">{0} ₪</string>
+    <string name="publication_details_no_reports">No reports</string>
+    <string name="publication_details_reports">Reports:</string>
+    <string name="report_format">{0} (reported {1} ago)</string>
+
+    <string name="report_has_more">Has more to pickup</string>
+    <string name="report_took_all">Took all</string>
+    <string name="report_nothing_found">Found nothing there</string>
+    <string name="report_error">Report error</string>
+
+    <string name="post_on_facebook_action">post on facebook</string>
+    <string name="post_on_tweeter_action">post on tweeter</string>
+    <string name="no_registered_user_for_sms_or_call">No users registered</string>
+    <string name="select_reg_user_title">Select user:</string>
+    <string name="action_registering_for_publication">Registering to publication</string>
+    <string name="action_unregistering_from_publication">Unregistering from publication</string>
+    <string name="pub_det_uimessage_failed_register_to_pub">Failed to register to publication</string>
+    <string name="pub_det_uimessage_failed_unregister_from_pub">Failed to unregister from publication</string>
+
+    <string name="progress_creating_account">Creating account</string>
+
+    <string name="report_big_distance">You\'re more than 2km away from place, are you sure you want to leave report?</string>
+
+    <string name="report_dialog_title_format">You arrived to {0}</string>
+    <string name="report_dialog_please_rate_it">Please rate it:</string>
+    <string name="progress_leaving_report">Leaving report</string>
+
+    <string name="additional_report_not_allowed_title">You\'ve already posted a report on this event</string>
+    <string name="additional_report_not_allowed_content">only one report can be posted for each event</string>
+
+    <string name="failed_to_save_edited_publication">Failed to save publication</string>
+    <string name="succeeded_to_save_edited_publication">Succeeded to save publication</string>
+
+    <string name="failed_to_save_changes">Failed to save changes</string>
+
+    <string name="progress_taking_pub_off_air">Stopping event</string>
+    <string name="progress_activating_pub">Activating event</string>
+    <string name="progress_delete_pub">Deleting event</string>
+    <string name="title_activity_about_us">About_us</string>
+
+    <!-- About us -->
+    <string name="about_us_title">About Foodonet</string>
+    <string name="about_us_current_version_format">v {0}</string>
+    <string name="about_us_text">Foodonet is a social initiative aiming to reduce food waste. Foodonet develops a mobile platform that allows people to easily donate spare food to each other. Foodonet is connecting food producers directly to customers with no mediators and cutting food costs</string>
+
+    <!-- feedback -->
+
+    <string name="feedback_report_hint">Feedback text</string>
+    <string name="feedback_validation_text_null">Please write something</string>
+    <string name="progress_feedback_sending">Sending feedback</string>
+    <string name="title_activity_notifications">NotificationsActivity</string>
+
+    <!-- Notifications -->
+
+    <string name="notifications_title">Notifications</string>
+    <string name="notification_title_new_event_near_you">New event near you:</string>
+    <string name="notification_title_event_ended">Event ended:</string>
+    <string name="notification_title_user_added_you_to_group">User added you to group:</string>
+    <string name="notification_title_event_changed">Event changed:</string>
+    <string name="notification_title_new_report_for_event">New report for event:</string>
+    <string name="notification_title_you_were_removed_from_group">You was removed from group:</string>
+    <string name="notification_title_someone_registered_for_your_pub">Someone registered for your publication:</string>
+    <string name="notification_this_publication_has_been_removed_by_owner">This publication has been removed by user!</string>
+    <string name="notification_publication_has_been_removed_by_owner">Publication has been removed by user:</string>
+    <string name="notification_text_new_registration">New registration for publication: {0}</string>
+
+</resources>

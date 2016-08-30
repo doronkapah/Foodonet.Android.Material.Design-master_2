@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/address_dialog_history_item_height">
+
+    <TextView android:id="@+id/tv_address_history_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/address_dialog_history_item_text_size"
+        android:gravity="right"
+        android:layout_marginRight="@dimen/address_dialog_history_item_right_margin"/>
+
+
+</RelativeLayout>

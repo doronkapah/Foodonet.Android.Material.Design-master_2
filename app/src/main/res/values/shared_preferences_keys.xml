@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared Preferences keys -->
+    <string name="shared_preferences_token">sp_token</string>
+    <string name="shared_preferences_token_key">token_key</string>
+    <string name="shared_preferences_my_location_key">my_location_key</string>
+    <string name="shared_preferences_my_latitude_key">lat_key</string>
+    <string name="shared_preferences_my_longitude_key">lon_key</string>
+    <string name="shared_preferences_text_filter_key">text_filter_key</string>
+    <string name="shared_preferences_text_filter_text_key">text_filter_text_key</string>
+    <string name="shared_preferences_data_loaded">data_loaded</string>
+    <string name="shared_preferences_data_loaded_key">data_loaded_key</string>
+    <string name="shared_preferences_is_device_registered">is_registered</string>
+    <string name="shared_preferences_is_device_registered_key">is_registered_key</string>
+    <string name="shared_preferences_google_facebook_data_token">is_registered_googlefacebook</string>
+    <string name="shared_preferences_is_registered_to_google_facebook_key">is_registered_googlefacebook_key</string>
+    <string name="shared_preferences_pending_broadcast">pending_broadcast</string>
+    <string name="shared_preferences_pending_broadcast_value">pending_broadcast_value</string>
+    <string name="shared_preferences_contact_info">contact_info</string>
+    <string name="shared_preferences_contact_info_name">contact_info_name</string>
+    <string name="shared_preferences_contact_info_phone">contact_info_phone</string>
+    <string name="shared_preferences_social_account_type_key">social_account_type</string>
+    <string name="shared_preferences_social_account_name_key">social_account_name</string>
+    <string name="shared_preferences_social_account_token_key">social_account_token</string>
+    <string name="shared_preferences_social_account_id">social_account_id</string>
+    <string name="shared_preferences_user_data_token">user_data</string>
+    <string name="shared_preferences_user_data_id_key">user_id</string>
+    <string name="shared_preferences_user_data_phone_num_key">user_phone_num</string>
+    <string name="shared_preferences_user_data_user_name">user_name</string>
+    <string name="shared_preferences_user_data_email">email</string>
+
+    <!-- Notifications settings -->
+
+    <string name="notif_settings_sp_key">notif_settings</string>
+    <string name="notif_settings_radius_key">notif_radius</string>
+    <string name="notif_settings_is_on_key">notif_is_on</string>
+
+    <!-- Is application running in foreground -->
+
+    <string name="is_app_running_in_foreground_token">is_running_token</string>
+    <string name="is_app_running_in_foreground_key">is_running_key</string>
+
+</resources>

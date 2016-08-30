@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="upp.foodonet.material.AddEditPublicationActivity">
+    <item
+        android:id="@+id/done"
+        android:title="Notification"
+        android:layout_width="@dimen/add_pub_pub_btn_size"
+        android:layout_height="@dimen/add_pub_pub_btn_size"
+        android:icon="@drawable/done_xxh"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/address_dialog_width"
+    android:layout_height="@dimen/address_dialog_height"
+    android:paddingTop="@dimen/address_dialog_ll_top_bottom_padding"
+    android:paddingBottom="@dimen/address_dialog_ll_top_bottom_padding"
+    android:paddingLeft="@dimen/address_dialog_ll_side_padding"
+    android:paddingRight="@dimen/address_dialog_ll_side_padding"
+    android:orientation="vertical">
+
+    <AutoCompleteTextView
+        android:id="@+id/actv_address_new_publication"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/address_dialog_edit_field_height"
+        android:ems="10"
+        android:hint="@string/address_string"
+        android:layout_below="@+id/et_title_new_publication"
+        android:singleLine="true"/>
+
+    <RelativeLayout android:id="@+id/rl_btn_get_location_address_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/address_dialog_get_curr_location_height"
+        android:layout_marginTop="@dimen/address_dialog_divider_height"
+        android:layout_marginBottom="@dimen/address_dialog_divider_height">
+
+        <CheckBox android:id="@+id/cb_use_current_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView android:id="@+id/tv_address_dialog_my_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/cb_use_current_location"
+            android:text="@string/get_current_location_checkbox_text"/>
+
+        <ImageView android:id="@+id/iv_address_dialog_my_loc_validation"
+            android:layout_width="@dimen/address_dialog_validation_img_size"
+            android:layout_height="@dimen/address_dialog_validation_img_size"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_address_dialog_my_location"
+            android:layout_marginRight="@dimen/address_dialog_validation_img_size"
+            android:src="@drawable/validation_ok"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <ListView android:id="@+id/lv_address_history"
+        android:layout_width="match_parent"
+
+        android:layout_height="@dimen/address_dialog_history_list_height"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/address_dialog_edit_field_height"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/btn_address_dialog_ok"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/address_dialog_btn_ok"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+
+        <Button android:id="@+id/btn_address_dialog_cancel"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/address_dialog_btn_cancel"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+
+    </LinearLayout>
+
+</LinearLayout>

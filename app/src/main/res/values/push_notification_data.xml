@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notifications_server_id">585244341740</string>
+
+    <!-- Push notification topics: prod and dev -->
+    <!-- <string name="push_notification_prefix">/topics/prod</string> -->
+    <string name="push_notification_prefix">/topics/dev</string>
+    <!-- ====================================== -->
+
+</resources>

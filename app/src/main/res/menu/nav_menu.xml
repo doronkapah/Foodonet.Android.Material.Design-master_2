@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/nav_item_sharings"
+        android:title="@string/ttl_item_your_sh_menu"
+        android:orderInCategory="1"
+        android:icon="@drawable/list_xxh"/>
+    <item
+        android:id="@+id/nav_item_subscriptions"
+        android:title="@string/ttl_item_sub_menu"
+        android:orderInCategory="2"
+        />
+    <item
+        android:id="@+id/nav_item_groups"
+        android:title="@string/ttl_item_groups_menu"
+        android:orderInCategory="3"
+        />
+    <item
+        android:id="@+id/nav_item_settings"
+        android:title="@string/ttl_item_settings_menu"
+        android:orderInCategory="4"
+        />
+    <item
+        android:id="@+id/nav_item_contact_us"
+        android:title="@string/ttl_item_contact_menu"
+        android:orderInCategory="5"
+        />
+    <item
+        android:id="@+id/nav_item_terms"
+        android:title="@string/ttl_item_terms_menu"
+        android:orderInCategory="6"
+        />
+
+</menu>

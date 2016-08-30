@@ -1,0 +1,198 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="upp.foodonet.material.AddEditPublicationActivity">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark"
+                app:titleTextColor="@color/white" />
+        </android.support.design.widget.AppBarLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="0px"
+                android:focusable="true"
+                android:focusableInTouchMode="true">
+
+                <requestFocus />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imgAddPicture"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/add_pub_img_height"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/no_photo_xxh" />
+            <!--
+                        <ImageButton
+                            android:id="@+id/btn_camera_add_pub"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignBottom="@+id/imgAddPicture"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginBottom="-15dp"
+                            android:layout_marginRight="30dp"
+                            android:background="@color/transparent"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/camera_xxh"
+                            android:visibility="gone"/>
+            -->
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/text_input_layout_title"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_below="@+id/imgAddPicture"
+                android:layout_marginTop="@dimen/edit_text_side_margin_add_edit_pub"
+                app:errorEnabled="true">
+
+                <EditText
+                    android:id="@+id/et_title_new_publication"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/edit_text_side_margin_add_edit_pub"
+                    android:layout_marginRight="@dimen/edit_text_side_margin_add_edit_pub"
+                    android:layout_marginTop="@dimen/edit_text_side_margin_add_edit_pub"
+                    android:ems="10"
+                    android:hint="@string/enter_title_string"
+                    android:inputType="textShortMessage"
+                    android:textColorHighlight="@color/basic_blue"
+                    android:textSize="@dimen/add_pub_et_date_text_size">
+                    <!--<requestFocus />-->
+                </EditText>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <EditText
+                android:id="@+id/et_address_edit_add_pub"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_below="@+id/text_input_layout_title"
+                android:layout_marginLeft="@dimen/edit_text_side_margin_add_edit_pub"
+                android:layout_marginRight="@dimen/edit_text_side_margin_add_edit_pub"
+                android:hint="@string/address_string"
+                android:singleLine="true"
+                android:textColorHighlight="@color/basic_blue"
+                android:textSize="@dimen/add_pub_et_date_text_size" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_price"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_below="@+id/et_address_edit_add_pub"
+                app:errorEnabled="true">
+                <EditText
+                    android:id="@+id/et_price_add_edit_pub"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/edit_text_side_margin_add_edit_pub"
+                    android:layout_marginRight="@dimen/edit_text_side_margin_add_edit_pub"
+                    android:ems="10"
+                    android:hint="@string/hint_price_free"
+                    android:maxLines="1"
+                    android:textColorHighlight="@color/basic_blue"
+                    android:textSize="@dimen/add_pub_et_date_text_size"
+                    android:inputType="numberDecimal"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_share_with"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_below="@+id/til_price"
+                app:errorEnabled="true">
+
+                <EditText
+                    android:id="@+id/et_share_with"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/edit_text_side_margin_add_edit_pub"
+                    android:layout_marginRight="@dimen/edit_text_side_margin_add_edit_pub"
+                    android:layout_marginTop="@dimen/edit_text_side_margin_add_edit_pub"
+                    android:ems="10"
+                    android:inputType="textShortMessage"
+                    android:hint="@string/share_with"
+                    android:textColorHighlight="@color/basic_blue"
+                    android:textSize="@dimen/add_pub_et_date_text_size">
+                    <!--<requestFocus />-->
+                </EditText>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/text_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_below="@+id/til_share_with"
+                app:errorEnabled="true">
+
+                <EditText
+                    android:id="@+id/et_subtitle_add_edit_pub"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/edit_text_side_margin_add_edit_pub"
+                    android:layout_marginRight="@dimen/edit_text_side_margin_add_edit_pub"
+                    android:ems="10"
+                    android:hint="@string/publication_details_title"
+                    android:lines="3"
+                    android:textColorHighlight="@color/basic_blue"
+                    android:textSize="@dimen/add_pub_et_date_text_size"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:id="@+id/text_input_layout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--app:errorEnabled="true">-->
+
+            <!--<EditText-->
+            <!--android:id="@+id/edit_text"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:imeOptions="actionGo"-->
+            <!--android:inputType="text"-->
+            <!--android:hint="Enter your name"-->
+            <!--android:singleLine="true" />-->
+
+            <!--</android.support.design.widget.TextInputLayout>-->
+
+        </RelativeLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_add_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/camera_xxh_white"
+            app:backgroundTint="@color/basic_blue"
+            app:layout_anchor="@id/imgAddPicture"
+            app:layout_anchorGravity="bottom|right|end" />
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>

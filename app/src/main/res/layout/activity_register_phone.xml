@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="upp.foodonet.RegisterPhoneActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_panel_height"
+            android:gravity="center"
+            android:text="@string/welcome_reg_number_string"
+            android:textColor="@color/basic_blue"
+            android:textSize="@dimen/top_panel_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_panel_height"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/basic_blue"
+            android:textSize="@dimen/top_panel_text_size"
+            android:textStyle="bold" />
+
+        <UIUtil.RoundedImageView
+            android:id="@+id/iv_user_profile_img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/app_logo_for_icon" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_panel_height"
+            android:gravity="center"
+            android:text="@string/last_step_string"
+            android:textColor="@color/basic_blue"
+            android:textSize="@dimen/top_panel_text_size"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/add_phone_number_string"
+                android:imeActionId="@+id/login"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionUnspecified"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:textColorHighlight="@color/basic_blue"
+                android:textSize="20dp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_register_phone"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/basic_blue"
+            android:gravity="center"
+            android:text="@string/btn_start_sharing_string"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="8pt" />
+    </LinearLayout>
+</RelativeLayout>

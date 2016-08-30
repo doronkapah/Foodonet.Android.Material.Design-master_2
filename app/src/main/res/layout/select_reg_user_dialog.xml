@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="320dp"
+    android:layout_height="420dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/select_reg_user_title"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_reged_users"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="5"/>
+
+    <Button
+        android:id="@+id/btn_cancel_select_reg_user"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:text="@string/btn_cancel"
+        style="@style/Widget.AppCompat.Button.Borderless"/>
+
+</LinearLayout>

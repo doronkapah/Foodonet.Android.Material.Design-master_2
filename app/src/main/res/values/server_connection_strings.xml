@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Server strings -->
+
+    <!-- Connection strings - PRODUCTION -->
+    <!-- <string name="amazon_base_url_for_images">https://s3.amazonaws.com/foodcollector</string> -->
+    <!-- <string name="amazon_url_for_user_avatar">https://s3.amazonaws.com/foodonerusers</string> -->
+    <!--<string name="amazon_sub_path_publication_images">foodcollector</string>-->
+    <!--<string name="amazon_sub_path_user_images">foodonerusers</string>-->
+    <!-- <string name="server_base_url">https://fd-server.herokuapp.com</string> -->
+    <!-- ========================
+    == -->
+
+    <!-- Connection strings - DEV -->
+    <string name="amazon_base_url_for_images">https://s3.amazonaws.com/foodcollectordev</string>
+    <string name="amazon_url_for_user_avatar">https://s3.amazonaws.com/foodonetusersdev</string>
+    <string name="amazon_sub_path_publication_images">foodcollectordev</string>
+    <string name="amazon_sub_path_user_images">foodonetusersdev</string>
+    <string name="server_base_url">https://prv-fd-server.herokuapp.com</string>
+    <!-- ========================== -->
+
+    <string name="amazon_user_avatar_image_name">fduser{0}.jpg</string>
+
+    <string name="server_add_new_publication_path">/publications.json</string>
+    <string name="server_edit_publication_path">/publications/{0}.json</string>
+    <string name="server_get_publications_path">/publications</string>
+    <string name="server_get_registered_for_publications">/publications/{0}/registered_user_for_publications</string>
+    <string name="server_get_publication_report">/publications/{0}/publication_reports</string>
+    <string name="server_post_register_to_publication">/publications/{0}/registered_user_for_publications.json</string>
+    <string name="server_post_unregister_from_publication_old">/publications/{0}/registered_user_for_publications/5</string>
+    <string name="server_post_unregister_from_publication">/publications/{0}/registered_user_for_publications/1?publication_version={1}&amp;active_device_dev_uuid={2}</string>
+    <string name="server_post_report_to_publication">/publications/{0}/publication_reports.json</string>
+    <string name="server_post_report_feedback">/feedbacks</string>
+    <string name="server_post_register_user">/users</string>
+    <string name="server_post_new_group">/groups</string>
+    <string name="server_get_groups_by_user">/users/{0}/groups</string>
+    <string name="server_post_add_members_to_group">/group_members</string>
+    <string name="register_new_device">/active_devices.json</string>
+
+</resources>

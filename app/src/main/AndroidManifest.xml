@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="upp.foodonet.material"
+    android:versionCode="1"
+    android:versionName="1.09">
+
+    <!-- PERMISSIONS -->
+    <!-- For internet -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- This needed to get IMEI -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!--
+    <permission
+        android:name="upp.foodonet.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    -->
+
+
+    <!-- This needed for push notifications -->
+    <permission
+        android:name="upp.foodonet.material.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="upp.foodonet.material.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Reading contacts -->
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <!-- Application -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon1024"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppDefault">
+        <activity
+            android:name=".SplashScreenActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EntarenceMapAndListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppDefault" >
+
+            <!--
+                        <intent-filter>
+                            <action android:name="android.intent.action.MAIN" />
+                            <category android:name="android.intent.category.LAUNCHER" />
+                        </intent-filter>
+            -->
+        </activity>
+
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="upp.foodonet.material" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name=".FooDoNetGcmListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".FooDoNetInstanceIDListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <service
+            android:name=".FooDoNetService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".ReloadDataIntentService"
+            android:exported="false" />
+        <service
+            android:name="com.amazonaws.mobileconnectors.s3.transferutility.TransferService"
+            android:enabled="true" />
+
+        <provider
+            android:name=".FooDoNetSQLProvider"
+            android:authorities="foodonet.foodcollector.sqlprovider"
+            android:enabled="true"
+            android:multiprocess="true" />
+
+        <activity
+            android:name=".SignInActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppDefault" />
+        <activity
+            android:name=".RegisterPhoneActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppDefault" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".GroupsListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppDefault" />
+        <activity
+            android:name=".NewAndExistingGroupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppDefault" />
+        <activity
+            android:name=".SelectContactsForGroupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppDefault" />
+        <activity
+            android:name=".AddEditPublicationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppDefault" />
+        <activity
+            android:name=".SelectGroupForPublicationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppDefault" />
+
+        <service
+            android:name=".AddEditPublicationService"
+            android:exported="false" />
+
+        <activity
+            android:name=".SettingsSelectActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppDefault" />
+        <activity
+            android:name=".ProfileViewAndEditActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppDefault" />
+        <activity
+            android:name=".NotificationSettings"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppDefault" />
+        <activity
+            android:name=".ExistingPublicationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutUsActivity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".RegisterUnregisterReportService"
+            android:exported="false" />
+
+        <activity
+            android:name=".NotificationsActivity"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

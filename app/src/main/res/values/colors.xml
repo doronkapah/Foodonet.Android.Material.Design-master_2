@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3197d3</color>
+    <color name="colorPrimaryDark">#3197d3</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#c8e8ff</color>
+
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="white">#FFFFFF</color>
+    <color name="side_menu_score_circle_red">#B80000</color>
+    <color name="side_menu_item_background">#555555</color>
+    <color name="side_menu_title_background">#2A2A2A</color>
+    <color name="side_menu_partition_background">#444444</color>
+
+    <!-- from Test Application -->
+    <color name="white_a50">#ff00ff00</color>
+    <color name="list_background">#FFFFFF</color>
+    <color name="list_background_pressed">#CCCCCC</color>
+    <color name="list_divider">#003300</color>
+    <color name="list_item_title">#333300</color>
+    <color name="event_list_item_background_onair">#99FF33</color>
+    <color name="event_list_item_background_expired">#FF8080</color>
+    <color name="basic_blue">#3197d3</color>
+    <color name="dark_blue">#0040ff</color>
+    <color name="inactive_blue">#66AFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="number_of_reged_users_blue">#0099FF</color>
+    <color name="number_of_reged_users_green">#009933</color>
+    <!-- ====================== -->
+
+    <color name="buttons_pressed">#D900a3cc</color>
+    <color name="gallery_pressed">#D900a3cc</color>
+    <color name="buttons_normal">#8066e0ff</color>
+    <color name="gallery_normal">#713197d3</color>
+    <color name="red_for_dot_my_pubs_list">#FF0000</color>
+    <color name="green_for_dot_my_pubs_list">#00FF00</color>
+    <color name="divider_horizontal">#CCCCCC</color>
+    <color name="validation_red_text_color">#FF0000</color>
+    <color name="validation_green_text_color">#30AC59</color>
+    <color name="edit_text_input_default_color">#000000</color>
+
+    <color name="plus_button_red">#FF3939</color>
+    <color name="fab_inactive_gray">#66000000</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="rating_star_color">#e6e600</color>
+    <color name="rating_star_color_activated">#ffd24d</color>
+</resources>

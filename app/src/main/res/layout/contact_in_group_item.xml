@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <ImageView
+        android:id="@+id/iv_group_member_icon_user"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/user_icon"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:visibility="gone"
+        android:scaleType="fitCenter"/>
+    <ImageView
+        android:id="@+id/iv_group_member_icon_not_user"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/not_user_icon"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:visibility="gone"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:id="@+id/tv_contact_in_group_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="75dp"/>
+
+    <ImageButton
+        android:id="@+id/ib_leave_group"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/delete_member"
+        android:scaleType="fitCenter"
+        style="@style/Widget.AppCompat.Button.Borderless"/>
+
+</RelativeLayout>

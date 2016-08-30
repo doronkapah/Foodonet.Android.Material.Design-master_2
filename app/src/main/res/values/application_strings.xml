@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="image_folder_path">/Foodonet/PublicationImages</string>
+    <string name="regex_israel_phone_number">^0?([57][02345678])(\\-)?\\d{7}$</string>
+
+</resources>

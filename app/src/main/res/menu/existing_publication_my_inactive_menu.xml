@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="upp.foodonet.material.ExistingPublicationActivity">
+    <item
+        android:title="@string/menu_item_edit"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        />
+    <!--android:icon="@drawable/list_xxh"-->
+    <item
+        android:title="@string/menu_item_restart_event"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="@string/menu_item_delete"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+        />
+</menu>
